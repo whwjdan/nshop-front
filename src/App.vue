@@ -1,6 +1,6 @@
 <template>
   <NshopHeader/>
-  <NshopHome/>
+  <RouterView/>
   <NshopFooter/>
 </template>
 
@@ -8,12 +8,10 @@
 
 import NshopHeader from "@/components/NshopHeader.vue";
 import NshopFooter from "@/components/NshopFooter.vue";
-import NshopHome from "@/pages/NshopHome.vue";
 
 export default {
   name: 'App',
   components: {
-    NshopHome,
     NshopFooter,
     NshopHeader,
   }
